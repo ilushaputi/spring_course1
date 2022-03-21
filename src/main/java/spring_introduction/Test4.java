@@ -19,5 +19,7 @@ public class Test4 {
         System.out.println(myDog);
         System.out.println(yourDog);
         context.close();
+
+        System.out.println("Check commit");
     }
 }
