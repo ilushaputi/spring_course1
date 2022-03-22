@@ -31,15 +31,15 @@ public class Person {
         return age;
     }
 
-   // public Person() {
-   //     System.out.println("Person bean is created");
-   // }
+    public Person() {
+        System.out.println("Person bean is created");
+    }
+  //  @Autowired
+  //  public Person(Pet pet) {
+  //     System.out.println("Person bean is created");
+  //     this.pet = pet;
+  // }
     @Autowired
-    public Person(Pet pet) {
-       System.out.println("Person bean is created");
-       this.pet = pet;
-   }
-
     public void setPet(Pet pet) {
         System.out.println("Class Person: set pet");
         this.pet = pet;
