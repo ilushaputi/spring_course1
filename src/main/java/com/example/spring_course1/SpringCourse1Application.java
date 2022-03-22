@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringCourse1Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCourse1Application.class, args);
+   //     SpringApplication.run(SpringCourse1Application.class, args);
     }
 
 }
