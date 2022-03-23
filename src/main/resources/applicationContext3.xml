@@ -10,6 +10,9 @@
     <context:component-scan base-package="spring_introduction">
     </context:component-scan>
 
+    <context:property-placeholder location="classpath:myApp.properties"/>
+
+
 
 
 
