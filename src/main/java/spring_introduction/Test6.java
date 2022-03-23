@@ -12,8 +12,9 @@ public class Test6 {
       // cat.say();
       // cat2.say();
         Person person = context.getBean("personBean", Person.class);
-
-        person.callYourPet();
+        System.out.println(person.getSurName());
+        System.out.println(person.getAge());
+       // person.callYourPet();
         context.close();
     }
 }
